@@ -13,6 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// Initializes FriendlyChat.
+
+// Saves a new message containing an image URI in Firebase.
+// This first saves the image in Firebase storage.
 'use strict';
 
 // Initializes FriendlyChat.
