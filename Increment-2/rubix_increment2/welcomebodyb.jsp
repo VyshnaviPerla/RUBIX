@@ -12,6 +12,7 @@ document.write("<center><font color=red size=20> <%=session.getAttribute("user")
 </script>
 <br><center>
 <font color=blue size="6"> WELCOME TO FASCIMAIL</font></center><br><br>
+    /*font colour is blue*/
 <font color=green size="5"><u><I><b>BIRTHDAY'S</b></I></u></font>
 <script>
  
