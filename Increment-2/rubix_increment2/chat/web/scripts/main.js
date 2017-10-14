@@ -13,6 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// Initializes FriendlyChat.
+
+// Saves a new message containing an image URI in Firebase.
+// This first saves the image in Firebase storage.
 'use strict';
 
 // Initializes FriendlyChat.
@@ -54,6 +58,7 @@ function FriendlyChat() {
 }
 
 // Sets up shortcuts to Firebase features and initiate firebase auth.
+//do this to get firebase auth login
 FriendlyChat.prototype.initFirebase = function() {
   // Shortcuts to Firebase SDK features.
   this.auth = firebase.auth();
@@ -64,6 +69,7 @@ FriendlyChat.prototype.initFirebase = function() {
 };
 
 // Loads chat messages history and listens for upcoming ones.
+//This is good for cht messages
 FriendlyChat.prototype.loadMessages = function() {
   // Reference to the /messages/ database path.
   this.messagesRef = this.database.ref('messages');
@@ -79,6 +85,7 @@ FriendlyChat.prototype.loadMessages = function() {
   this.messagesRef.limitToLast(12).on('child_changed', setMessage);
 };
 
+// Saves a new message on the Firebase DB.
 // Saves a new message on the Firebase DB.
 FriendlyChat.prototype.saveMessage = function(e) {
   e.preventDefault();
