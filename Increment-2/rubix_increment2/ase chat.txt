@@ -1,0 +1,28 @@
+https://github.com/firebase/friendlychat-web
+
+
+
+<script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBXbfjMmpUjbn86PKnpXatTDy05mHheWww",
+    authDomain: "rubix-chat.firebaseapp.com",
+    databaseURL: "https://rubix-chat.firebaseio.com",
+    projectId: "rubix-chat",
+    storageBucket: "",
+    messagingSenderId: "709069995893"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+
+cloud messagnig:server key
+AAAApRfdf3U:APA91bEN6rqfcIUofLA46nJTj6L9rrK0OEr7nO4y8sFOvUcdy1Qo2z-h9dDHtXrKz4SxU9vL76-YZ2ORIHf20X12lU2zkDhy-cdUSD_ChXeX8ZJWHLWzCZ5_KEjQN-i-9WvHUMmvtW0x
+
+legacy ser key
+AIzaSyBSHe6rnLZCP57hgl5-tTtzGQcqRwAiM5M
+
+
+ 
