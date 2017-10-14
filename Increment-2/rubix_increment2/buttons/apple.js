@@ -323,3 +323,69 @@ FriendlyChat.prototype.checkSetup = function() {
 window.onload = function() {
     window.friendlyChat = new FriendlyChat();
 };
+
+/*
+Firebase evolved from Envolve, a prior startup founded by James Tamplin and Andrew Lee in 2011. Envolve provided developers an API that enables the integration of online chat functionality into their websites. After releasing the chat service, Tamplin and Lee found that it was being used to pass application data that wasn't chat messages. Developers were using Envolve to sync application data such as game state in real time across their users. Tamplin and Lee decided to separate the chat system and the real-time architecture that powered it. They founded Firebase as a separate company in April 2012.[6]
+
+Firebase Inc. raised seed funding in May 2012. The company further raised Series A funding in June 2013.[7] In October 2014, Firebase was acquired by Google.[8] In October 2015, Google acquired Divshot to merge it with the Firebase team. Since the acquisition, Firebase has grown inside Google and expanded their services to become a unified platform for mobile developers. Firebase now integrates with various other Google services to offer broader products and scale for developers. In January 2017, Google acquired Fabric and Crashlytics from Twitter to join those services to the Firebase team.[9][10]
+
+Services[edit]
+Analytics[edit]
+Firebase Analytics[edit]
+Firebase Analytics is a free app measurement solution that provides insight into app usage and user engagement.[11]
+
+Develop[edit]
+Firebase Cloud Messaging[edit]
+Formerly known as Google Cloud Messaging (GCM), Firebase Cloud Messaging (FCM) is a cross-platform solution for messages and notifications for Android, iOS, and web applications, which currently can be used at no cost.[12]
+
+Firebase Auth[edit]
+Firebase Auth is a service that can authenticate users using only client-side code. It supports social login providers Facebook, GitHub, Twitter and Google. Additionally, it includes a user management system whereby developers can enable user authentication with email and password login stored with Firebase.[13]
+
+Realtime Database[edit]
+Firebase provides a realtime database and backend as a service. The service provides application developers an API that allows application data to be synchronized across clients and stored on Firebase's cloud.[14][15] The company provides client libraries that enable integration with Android, iOS, JavaScript, Java, Objective-C, swift and Node.js applications. The database is also accessible through a REST API and bindings for several JavaScript frameworks such as AngularJS, React, Ember.js and Backbone.js.[16] The REST API uses the Server-Sent Events protocol, which is an API for creating HTTP connections for receiving push notifications from a server. Developers using the realtime database can secure their data by using the company's server-side-enforced security rules.[17]
+
+Firebase Storage[edit]
+Firebase Storage provides secure file uploads and downloads for Firebase apps, regardless of network quality. The developer can use it to store images, audio, video, or other user-generated content. Firebase Storage is backed by Google Cloud Storage.[18]
+
+Firebase Hosting[edit]
+Firebase Hosting is a static and dynamic web hosting service that launched on May 13, 2014. It supports hosting static files such as CSS, HTML, JavaScript and other files, as well as dynamic Node.js support through Cloud Functions. The service delivers files over a content delivery network (CDN) through HTTP Secure (HTTPS) and Secure Sockets Layer encryption (SSL). Firebase partners with Fastly, a CDN, to provide the CDN backing Firebase Hosting. The company states that Firebase Hosting grew out of customer requests; developers were using Firebase for its real-time database but needed a place to host their content.[19][20]
+
+Firebase Test Lab for Android[edit]
+Firebase Test Lab for Android provides cloud-based infrastructure for testing Android apps. With one operation, developers can initiate testing of their apps across a wide variety of devices and device configurations. Test results—including logs, videos, and screenshots—are made available in the project in the Firebase console. Even if a developer hasn't written any test code for their app, Test Lab can exercise the app automatically, looking for crashes.[21]
+
+Firebase Crash Reporting[edit]
+Crash Reporting creates detailed reports of the errors in the app. Errors are grouped into clusters of similar stack traces and triaged by the severity of impact on app users. In addition to automatic reports, developer can log custom events to help capture the steps leading up to a crash.[22]
+
+Grow[edit]
+Firebase Notifications[edit]
+Firebase Notifications is a free service that enables targeted user notifications for mobile app developers.[23]
+
+Firebase App Indexing[edit]
+Firebase App Indexing, formerly Google App Indexing, gets an app into Google Search. Adding App Indexing promotes both types of app results within Google Search and also provides query autocompletions.[24]
+
+Firebase Dynamic Links[edit]
+Firebase Dynamic Links are smart URLs that dynamically change behavior to provide the best experience across different platforms.[25]
+
+Firebase Invites[edit]
+Firebase Invites is a cross-platform solution for sending personalized email and SMS invitations, on-boarding users, and measuring the impact of invitations.[26]
+
+Firebase Remote Config[edit]
+Firebase Remote Config is a cloud service that lets developers change the behavior and appearance of their apps without requiring users to download an app update.[27]
+
+Adwords[edit]
+Adwords is Google online advertising service that integrates with to enable developers to target users using Firebase Analytics
+
+Earn[edit]
+Admob[edit]
+Admob is a Google product that integrates with Firebase audience.
+
+Open source projects[edit]
+Firepad[edit]
+Firepad is an open source collaborative real-time editor. Released under the MIT License, Firepad is used by several editors, including the Atlassian Stash Realtime Editor and Koding.[28][29]
+
+Firechat[edit]
+Firechat is an open source realtime chat application. It is released under the MIT License.[30]
+
+GeoFire[edit]
+GeoFire is an open source library that makes use of the Firebase realtime database, allowing app developers to store and query a set of keys based on geographic location.[31]
+ */
