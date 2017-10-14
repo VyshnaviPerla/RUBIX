@@ -9,6 +9,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
@@ -122,6 +124,7 @@
       </list>
     </option>
   </component>
+>>>>>>> d6aef8092009fbf02266310ee2166e5089eff0a3
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -249,6 +252,8 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+<<<<<<< HEAD
+=======
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -391,4 +396,5 @@
       </provider>
     </entry>
   </component>
+>>>>>>> d6aef8092009fbf02266310ee2166e5089eff0a3
 </project>
