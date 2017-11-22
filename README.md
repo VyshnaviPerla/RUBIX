@@ -6,4 +6,4 @@ https://github.com/VyshnaviPerla/RUBIX/blob/master/Increment1%20Phoneix_ProjectP
 
 increment-2
 
-https://github.com/VyshnaviPerla/RUBIX/blob/master/Increment-2/Increment2.pdf
+https://github.com/VyshnaviPerla/RUBIX/blob/master/Increment-2/Increment2.pd
