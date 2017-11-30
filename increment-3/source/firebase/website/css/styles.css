@@ -17,15 +17,7 @@ a:hover {
   color: #004f77;
 }
 
-img.fork-on-github {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 0;
-  width: 149px;
-  height: 149px;
-  z-index: 1;
-}
+
 
 .strong { font-weight: bold; }
 
