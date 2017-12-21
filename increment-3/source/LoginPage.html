@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <meta name="website" content="Lab3">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="355725285566-t6gdpglpnh7nun475n87qtscactudl0a.apps.googleusercontent.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <script src="fblogin.js"></script>
+    <script>
+        function registration()
+        {
+            window.location.href='Registration.html';
+        }
+        function login()
+        {
+            if(document.getElementById('username').value.length>0 && document.getElementById('password').value.length>0)
+            {
+                if(document.getElementById('username').value==localStorage.getItem('UserName')
+                    && document.getElementById('password').value==localStorage.getItem('Password'))
+                {
+                    window.location.href='HomePage.html';
+                }
+                else
+                {
+                    alert('Please enter correct details !');
+                }
+            }
+            else
+            {
+                alert('Few Details Missing,Try Again!');
+            }
+        }
+        function onSignIn(googleUser) {
+            var profile = googleUser.getBasicProfile();
+            if(profile != null || profile != undefined || profile != ''){
+                console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+                console.log(' Username: ' + profile.getName());
+                console.log('Image URL: ' + profile.getImageUrl());
+                console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+                window.location.href = 'HomePage.html';
+            }
+            else
+            {
+                alert('Google Sign In Failed!');
+            }
+
+        }
+
+    </script>
+
+</head>
+<body background="http://www.spyderonlines.com/images/line_shade_light_bright_16423.jpg">
+
+<div align="center">
+
+    <table border="0" width="1010" height="1" >
+        <tr>
+            <td width="500" height="26"
+                style=background="http://www.spyderonlines.com/images/line_shade_light_bright_16423.jpg">
+                <b><a href="LoginPage.html" style="text-decoration:none" target="_parent">MAIN PAGE</a></td>
+        </tr>
+        <tr>
+            <td width="564" height="1" style=background="http://www.spyderonlines.com/images/line_shade_light_bright_16423.jpg">
+                <table border="0" width="110%" height="81">
+                    <tr>
+                        <td width="21%" height="75"
+                            style="FONT-WEIGHT: bold; FONT-SIZE: small; FONT-STYLE: italic; FONT-FAMILY: serif;background="http://www.spyderonlines.com/images/line_shade_light_bright_16423.jpg""
+                        ><img
+                            src=".\images\globe1E182.gif" style="WIDTH: 125px; HEIGHT: 105px" height=105
+                            width=149><br> &nbsp;<font color=#ff9933></font>
+
+                        <td width="64%" height="75"><style=background="http://www.spyderonlines.com/images/line_shade_light_bright_16423.jpg" width="698"
+                                                         height="111"><marquee behavior=alternate ><b><font face="monotype corsiva" size="10" color="#3399ff"
+                        >RUBIX
+                        </font></b></marquee></td>
+
+                        <td width="64%" height="95"><img
+                                src="https://media.giphy.com/media/BTvzQa5FIupfa/giphy.gif" style="WIDTH: 125px; HEIGHT: 125px" height=105
+                                width=149
+                                id=IMG1
+                        ></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+<p class="form-title"><div class="container"><h4></right>
+
+
+<div align="center" style="padding-top: -80px">
+
+   <right><p class="form-title"><div class="container"><h2><img src="https://placeholdit.imgix.net/~text?txtsize=50&txtclr=F08080&txt=LOGIN DETAILS%20&w=300&h=100"></h2></div>
+       </p></right>
+    <div class="form-group">
+        <right><p class="form-title"><div class="container"><h4> <label for="username" class="cols-sm-2 control-label">USERNAME:</label>
+            <input type="text" id="username" placeholder="UserName" align="vertical"/></h4></div>
+            </p></right>
+
+        </div>
+        <div class="form-group">
+            <right><p class="form-title"><div class="container"><h4> <label for="password" class="cols-sm-2 control-label">PASSWORD:</label>
+                <input type="password" id="password" placeholder="Password"/> </h4>
+
+            </div>
+
+
+                <right><p class="form-title"><div class="container"><h4><input type="button" id="login" value="LOGIN" align="center" onclick="login()"/></h4>
+
+    <div>
+        <label style="color:lightcoral">NO ACCOUNT?</label>
+        <a style="color:red; font-weight: bold" href="Registration.html">SIGN UP</a>
+    <br/>
+    <br/>
+    <div class="g-signin2" data-size="xlarge" data-onsuccess="onSignIn"></div>
+
+</body>
+</html>
+
+
